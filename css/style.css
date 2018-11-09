@@ -44,9 +44,10 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-/*    display: none;*/
+    display: none;
 }
 
+/*
 .active_toggle_btn {
     display: flex;
     flex-direction: column;
@@ -56,6 +57,7 @@ body {
     height: auto;
     
 }
+*/
 
 .menu_icon {
     width: 30px;
@@ -79,14 +81,26 @@ body {
 
 @media only screen and (max-width: 768px) {
     
+    .active_toggle_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height: auto;
     
-    .main_nav_list .main_nav_list_item {
+}
+    
+    
+    .main_nav_list {
      
-        
+        display: none;
     }
     
     
-    
+    .toggle_btn {
+        display: flex;
+    }
     
     
     
